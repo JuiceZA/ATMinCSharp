@@ -138,9 +138,39 @@ public class cardHolder
             {
                 try
                 {
-                    userPin = Int.Parse(Console.ReadLine())
+                    userPin = Int.Parse(Console.ReadLine());
+                    //Check against our db
+                    if(currentUser.getPin()== userPin){
+                        break;
+                    }else{
+                        Console.WrietLine("Incorrect pin. Please try again");
+                    }catch{
+                        Console.WrietLine("Incorrect pin. Please try again");
+                    }
                 }
             }
+
+            Console.WrietLine("Welcome " + currentUser.getFirstName() + " :)");
+            int option = 0;
+            do
+            {
+                printOptions();
+                try
+                {
+                    option = int.Parse(Console.ReadLine());
+                }
+                catch{}
+                if(option == 1){deposit(currentUser);}
+                else if(option == 2){withdarw(currentUser);}
+                else if(option == 3) {balance(currentUser);}
+                else if(option == 4){break;}
+                else{
+                    option = 0;
+                }
+
+            }
+            while(option != 4);
+            Console.WrietLine("Thank you have a nice day")
         }
     }
 }
