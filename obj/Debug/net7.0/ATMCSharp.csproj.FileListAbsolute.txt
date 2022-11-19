@@ -1,0 +1,15 @@
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\bin\Debug\net7.0\ATMCSharp.exe
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\bin\Debug\net7.0\ATMCSharp.deps.json
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\bin\Debug\net7.0\ATMCSharp.runtimeconfig.json
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\bin\Debug\net7.0\ATMCSharp.dll
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\bin\Debug\net7.0\ATMCSharp.pdb
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\ATMCSharp.csproj.AssemblyReference.cache
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\ATMCSharp.GeneratedMSBuildEditorConfig.editorconfig
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\ATMCSharp.AssemblyInfoInputs.cache
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\ATMCSharp.AssemblyInfo.cs
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\ATMCSharp.csproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\ATMCSharp.dll
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\refint\ATMCSharp.dll
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\ATMCSharp.pdb
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\ATMCSharp.genruntimeconfig.cache
+\\wsl.localhost\Ubuntu\home\blaine\projects\ATMCSharp\obj\Debug\net7.0\ref\ATMCSharp.dll

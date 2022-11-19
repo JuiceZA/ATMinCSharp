@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 public class cardHolder
 {
@@ -53,7 +53,7 @@ public class cardHolder
 
     public void setfName(string newFirstName)
     {
-        firstname = newFirstName;
+        firstName = newFirstName;
     }
 
     public void setlName (string newLastName)
@@ -70,7 +70,7 @@ public class cardHolder
     {
         void printOptions()
         {
-            Console.WriteLine("Please choose from one of the following options...")
+            Console.WriteLine("Please choose from one of the following options...");
             Console.WriteLine("1. Deposit");
             Console.WriteLine("2. Withdraw");
             Console.WriteLine("3. Show Balance");
@@ -82,7 +82,7 @@ public class cardHolder
             Console.WriteLine("How much $$ would you like to deposit");
             double deposit = double.Parse(Console.ReadLine());
             currentUser.setBalance(deposit);
-            Console.WriteLine("Thank you your new balance is: " + currentUser)
+            Console.WriteLine("Thank you your new balance is: " + currentUser);
         }
 
         void Withdraw(cardHolder currentUser)
@@ -95,7 +95,7 @@ public class cardHolder
             }
             else
             {
-                currentUser.setBalance(currentUser() - withdrawal);
+                currentUser.setBalance(currentUser.getBalance() - withdrawal);
                 Console.WriteLine("Your good to go thank you :)");
             }
         }
@@ -115,42 +115,43 @@ public class cardHolder
         // prompt user
 
         Console.WriteLine("Welcome to ATM");
-        Console.WriteLine("Please isnert your debit card: ")
-        String debitCardNUm = " ";
+        Console.WriteLine("Please isnert your debit card: ");
+        String debitCardNum = "";
         cardHolder currentUser;
         while (true)
         {
             try
             {
-            debitCardNUm = Console.ReadLine()
-            // Check against db
-            currentUser = cardHolders.FirstOrDefault(a => a.cardNum == debitCardNum);
-            if(currentUser != null){ break;}else{Console.WriteLine("Card not recognized please try again");}
+                debitCardNum = Console.ReadLine();
+                // Check against db
+                currentUser = cardHolders.FirstOrDefault(a => a.cardNum == debitCardNum);
+                if(currentUser != null){ break;}else{Console.WriteLine("Card not recognized please try again");}
             }
             catch
             {
                 Console.WriteLine("Card not recognized please try again");
             }
+        }
 
-            Console.WriteLine("Please enter your pin: ");
-            int userPin = 0;
-            while(true)
+        Console.WriteLine("Please enter your pin: ");
+        int userPin = 0;
+        while(true)
             {
                 try
                 {
-                    userPin = Int.Parse(Console.ReadLine());
+                    userPin = int.Parse(Console.ReadLine());
                     //Check against our db
                     if(currentUser.getPin()== userPin){
                         break;
                     }else{
-                        Console.WrietLine("Incorrect pin. Please try again");
-                    }catch{
-                        Console.WrietLine("Incorrect pin. Please try again");
+                        Console.WriteLine("Incorrect pin. Please try again");
                     }
-                }
+                }catch{
+                        Console.WriteLine("Incorrect pin. Please try again");
+                    }
             }
 
-            Console.WrietLine("Welcome " + currentUser.getFirstName() + " :)");
+            Console.WriteLine("Welcome " + currentUser.getfName() + " :)");
             int option = 0;
             do
             {
@@ -161,7 +162,7 @@ public class cardHolder
                 }
                 catch{}
                 if(option == 1){deposit(currentUser);}
-                else if(option == 2){withdarw(currentUser);}
+                else if(option == 2){Withdraw(currentUser);}
                 else if(option == 3) {balance(currentUser);}
                 else if(option == 4){break;}
                 else{
@@ -170,7 +171,7 @@ public class cardHolder
 
             }
             while(option != 4);
-            Console.WrietLine("Thank you have a nice day")
+            Console.WriteLine("Thank you have a nice day");
         }
     }
-}
+
