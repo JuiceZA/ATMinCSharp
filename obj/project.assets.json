@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\blaine\\projects\\ATMCSharp\\ATMCSharp.csproj",
-      "projectName": "ATMCSharp",
-      "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\blaine\\projects\\ATMCSharp\\ATMCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\blain\\OneDrive - CTU Career\\Documents\\C# Hello World\\C# Hello World.csproj",
+      "projectName": "C# Hello World",
+      "projectPath": "C:\\Users\\blain\\OneDrive - CTU Career\\Documents\\C# Hello World\\C# Hello World.csproj",
       "packagesPath": "C:\\Users\\blain\\.nuget\\packages\\",
-      "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\blaine\\projects\\ATMCSharp\\obj\\",
+      "outputPath": "C:\\Users\\blain\\OneDrive - CTU Career\\Documents\\C# Hello World\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\blain\\AppData\\Roaming\\NuGet\\NuGet.Config"

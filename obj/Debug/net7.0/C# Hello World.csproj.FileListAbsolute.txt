@@ -1,0 +1,15 @@
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\bin\Debug\net7.0\C# Hello World.exe
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\bin\Debug\net7.0\C# Hello World.deps.json
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\bin\Debug\net7.0\C# Hello World.runtimeconfig.json
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\bin\Debug\net7.0\C# Hello World.dll
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\bin\Debug\net7.0\C# Hello World.pdb
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\C# Hello World.csproj.AssemblyReference.cache
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\C# Hello World.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\C# Hello World.AssemblyInfoInputs.cache
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\C# Hello World.AssemblyInfo.cs
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\C# Hello World.csproj.CoreCompileInputs.cache
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\C# Hello World.dll
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\refint\C# Hello World.dll
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\C# Hello World.pdb
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\C# Hello World.genruntimeconfig.cache
+C:\Users\blain\OneDrive - CTU Career\Documents\C# Hello World\obj\Debug\net7.0\ref\C# Hello World.dll
